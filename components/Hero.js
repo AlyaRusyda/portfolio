@@ -7,14 +7,14 @@ export const Hero = () => {
         <div className="flex items-center justify-center my-12 md:my-0">
           <div
             alt=""
-            className="h-full w-full object-cover ml-0 mx-auto md:ml-40 md:mr-20"
+            className="h-full w-full object-cover ml-0 mx-auto md:ml-40 md:mr-32"
           >
             <Image
               width={400}
               height={400}
               src="/images/wehe.png"
               alt=""
-              className="w-72 md:w-img object-cover rounded-lg"
+              className="w-72 md:w-bg object-cover rounded-lg"
             />
           </div>
         </div>
@@ -28,8 +28,8 @@ export const Hero = () => {
               <span className="font-normal mt-2">My Name is </span>Alya Rusyda
               Maharistya
             </h1>
-            <h4 className="md:text-md text-s m md:leading-normal leading-5 text-sec mt-2 mb-6">
-              Hi, My Name Alya Rusyda Maharistya. I'm student at Telkom Malang Vocational High School. <br />
+            <h4 className="md:text-base text-sm md:leading-normal leading-5 text-sec mt-2 mb-6">
+              Hi, My Name Alya Rusyda Maharistya. <br />
               Welcome to my portfolio website.
             </h4>
             <a href='https://drive.google.com/uc?export=download&id=1KIxoFkT6OCVYXbrGweUy7jHx048nSZdY' target="_blank" className='bg-sec rounded-lg text-md m:text-lg px-3 py-2'>Download CV</a>

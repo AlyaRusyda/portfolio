@@ -21,8 +21,7 @@ module.exports = {
       },
       width: {
         bg: "500px",
-        img: "450px",
-        home: "600px",
+        home: "750px",
         study: "350px",
       },
       height: {
