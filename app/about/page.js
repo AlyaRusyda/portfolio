@@ -57,7 +57,7 @@ function Page() {
         height={400}
         src="/images/about.png"
         alt=""
-        className="z-[0] w-80 md:w-bg bg-cover absolute bottom-0 right-12 md:right-24"
+        className="z-[0] w-80 md:w-bg bg-cover md:block absolute bottom-0 right-12 md:right-24 hidden"
       />
       <div className="z-[999] text-sec md:min-h-screen flex py-10 md:flex-row flex-col items-start md:items-center mx-8 md:ml-56 mt-12 md:mt-0">
         <div className="flex-1 mr-about justify">

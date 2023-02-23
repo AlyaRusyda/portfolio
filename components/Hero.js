@@ -29,11 +29,11 @@ export const Hero = () => {
               Maharistya
             </h1>
             <h4 className="md:text-md text-s m md:leading-normal leading-5 text-sec mt-2 mb-6">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Hi, My Name Alya Rusyda Maharistya. I'm student at Telkom Malang Vocational High School. <br />
+              Welcome to my portfolio website.
             </h4>
             <a href='https://drive.google.com/uc?export=download&id=1KIxoFkT6OCVYXbrGweUy7jHx048nSZdY' target="_blank" className='bg-sec rounded-lg text-md m:text-lg px-3 py-2'>Download CV</a>
-            <p className='text-sec text-xs mt-4'>Last modified : 28 September 2021</p>
+            <p className='text-sec text-xs mt-3'>Last modified : 28 September 2021</p>
           </div>
         </div>
     </div>
