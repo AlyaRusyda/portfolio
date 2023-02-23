@@ -79,7 +79,7 @@ export const Study = () => {
             <a
               href="https://drive.google.com/drive/folders/110L2KJ1iUO4P9eyzCcLQxpzK8BKk-YkM?usp=share_link"
               target="_blank"
-              className="bg-sec hover:bg-gray-600 rounded text-md px-3 py-2 w-32 text-center text-primary text-md hover:text-sec"
+              className="bg-sec hover:bg-gray-600 text-md px-3 py-2 w-32 text-center text-primary text-md hover:text-sec"
             >
               Other Experience
             </a>

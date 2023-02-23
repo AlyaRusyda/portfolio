@@ -6,13 +6,13 @@ import { Study } from "@/components/Study";
 export default function Home() {
   return (
     <>
-      <section id="home">
+      <section id="home" className="overflow-x-hidden">
         <Hero />
       </section>
-      <section id="study" className="bg-sec">
+      <section id="study" className="bg-sec overflow-x-hidden">
         <Study />
       </section>
-      <section id="portfolio">
+      <section id="portfolio" className="overflow-x-hidden">
         <Porto />
       </section>
     </>
