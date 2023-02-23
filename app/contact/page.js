@@ -35,7 +35,7 @@ function Page() {
         <div className="mx-1 md:mx-24">
           <ul className="overflow-hidden w-72 md:w-auto mb-20 md:mb-16 mx-12 my-12 md:my-12 md:mx-20 text-center grid grid-cols-1 md:grid-cols-4">
             {kontak.map((isi) => (
-              <li className="bg-sec md:w-60 md:h-60 w-48 h-48 mb-4 md:mb-0 mx-auto hover:shadow-2xl rounded-lg justify-center flex flex-col">
+              <li className="bg-sec md:w-60 md:h-60 w-48 h-48 mb-4 md:mb-0 mx-auto hover:shadow-2xl justify-center flex flex-col">
                 <a href={isi.link} target="_blank">
                   <img
                     className="mx-auto my-2"

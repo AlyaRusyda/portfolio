@@ -57,7 +57,7 @@ export const Porto = () => {
       <div className="text-primary md:mx-20 mb-12 md:mb-12">
         <ul className="grid grid-cols-2 md:grid-cols-4">
           {porto.map((porto) => (
-            <li className="bg-sec rounded-md overflow-hidden m-auto mb-4 w-44 md:w-80 hover:shadow-2xl text-left p-2">
+            <li className="bg-sec overflow-hidden m-auto mb-4 w-44 md:w-80 hover:shadow-2xl text-left p-2">
               <a href={porto.link} target="_blank">
                 <Image
                   width={400}
@@ -75,7 +75,7 @@ export const Porto = () => {
           ))}
         </ul>
         <div className="mx-auto ml-2 md:ml-1">
-          <a href="https://github.com/AlyaRusyda/" target="_blank" className='bg-sec rounded-lg text-md m:text-lg px-3 py-2'>Other Portfolio</a>
+          <a href="https://github.com/AlyaRusyda/" target="_blank" className='bg-sec text-md m:text-lg px-3 py-2'>Other Portfolio</a>
         </div>
       </div>
     </div>

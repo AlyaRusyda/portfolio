@@ -32,7 +32,7 @@ export const Hero = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </h4>
-            <a href='https://drive.google.com/uc?export=download&id=1KIxoFkT6OCVYXbrGweUy7jHx048nSZdY' target="_blank" className='bg-sec rounded-lg text-md m:text-lg px-3 py-2'>Download CV</a>
+            <a href='https://drive.google.com/uc?export=download&id=1KIxoFkT6OCVYXbrGweUy7jHx048nSZdY' target="_blank" className='bg-sec text-md m:text-lg px-3 py-2'>Download CV</a>
             <p className='text-sec text-xs mt-3'>Last modified : 28 September 2021</p>
           </div>
         </div>
