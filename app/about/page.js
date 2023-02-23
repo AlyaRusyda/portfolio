@@ -44,9 +44,6 @@ function Page() {
       img: "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png",
     },
     {
-      img: "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png",
-    },
-    {
       img: "https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png",
     },
   ];
@@ -121,13 +118,13 @@ function Page() {
               Have Tried
             </h4>
             <div className="items-center mx-auto">
-              <ul className="md:space-x-4 space-x-1 mt-2 md:mt-4 flex flex-row w-80 md:w-full mx-auto md:mx-0">
+              <ul className="md:space-x-0 gap-3 space-x-1 mt-2 md:mt-4 grid grid-cols-3 md:grid-cols-10 w-60 md:w-img mx-auto md:mx-0">
                 {skills.map((skills) => (
                   <li>
                     <img
                       align="left"
                       alt="Javascript"
-                      width="40px"
+                      width="60px"
                       className="mb-4 md:mb-0"
                       src={skills.img}
                     />
