@@ -11,9 +11,10 @@ module.exports = {
       fontFamily: {
         bebasneue: "Bebas Neue",
         Montserrat: "Montserrat",
+        gloock: "Gloock",
       },
       backgroundImage: {
-        'bgcuy': "url('/src/asset/sy.png')",
+        product: "url('/images/food-ecommerce.png')"
       },
       colors: {
         primary: "#10162F",
