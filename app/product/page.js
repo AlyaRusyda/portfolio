@@ -10,7 +10,7 @@ function page() {
           jan<span className="text-orange-500">cook</span>
         </h1>
         <h4 className="text-white text-xl mb-4">Beli makan disini</h4>
-        <a href="" target="_blank" className='bg-sec text-md m:text-lg px-3 py-2'>See all product!</a>
+        <a href="https://belimakandisini.vercel.app/" target="_blank" className='bg-sec text-md m:text-lg px-3 py-2'>See all product!</a>
       </div>
     </div>
   );
